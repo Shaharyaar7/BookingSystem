@@ -1,0 +1,27 @@
+user:
+POST
+bookingid
+userid
+prop id
+status pending
+created at
+
+
+admin/owner:
+GET,PUT,DELETE
+bookingid
+userid
+prop id
+status confirm,cancel
+created at
+
+user:
+GET
+bookingid
+userid
+prop id
+status cancel
+created at
+
+
+
